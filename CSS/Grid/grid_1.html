@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+           padding: 20px;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(3,100px);
+        }
+   
+        .container div:nth-child(1){
+            grid-column-end: 3;
+            grid-column-start: 1;
+            grid-row-start: 1;
+            grid-row-end: 2;
+   
+        }
+        .container div:nth-child(2){
+            grid-column-end: 5;
+            grid-column-start: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            
+        }
+        .container div:nth-child(4){
+            grid-column-end: 5;
+            grid-column-start: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+           
+        }
+        .container div:nth-child(5){
+            grid-column-end: 5;
+            grid-column-start: 1;
+            grid-row-start: 3;
+            grid-row-end: 4;
+         
+        }
+        .container div{
+            background-color: grey;
+            padding-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div><h1>A</h1></div>
+        <div><h1>B</h1></div>
+        <div><h1>C</h1></div>
+        <div><H1>D</H1></div>
+        <div><H1>E</H1></div>
+        
+      
+    </div>
+</body>
+</html>

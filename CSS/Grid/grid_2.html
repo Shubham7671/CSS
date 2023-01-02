@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 70%;
+            margin: auto;
+            margin-top: 100px;
+    
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(2,150px);
+            gap: 15px;
+
+        }
+        .container>div{
+         
+            border-radius: 10px;
+            background-color: grey;
+            padding-left: 30px;
+        }
+        .container h1{
+            font-size: 50px;
+        }
+        .container div:nth-child(1){
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start:1 ;
+            grid-row-end:2 ;
+        }
+        .container div:nth-child(2){
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start:1 ;
+            grid-row-end:3 ;
+        }
+        .container div:nth-child(3){
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start:2 ;
+            grid-row-end:3 ;
+        }
+        .container div:nth-child(4){
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start:2 ;
+            grid-row-end:3 ;
+        }
+        .container div:nth-child(5){
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row-start:1 ;
+            grid-row-end:3 ;
+            height: 330px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div><h1>A</h1></div>
+        <div><h1>B</h1></div>
+        <div><h1>C</h1></div>
+        <div><H1>D</H1></div>
+        <div><H1>E</H1></div>
+        
+      
+    </div>
+</body>
+</html>
