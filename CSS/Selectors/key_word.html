@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(7, 187, 187);
+        }
+        .container{
+            /* border: 2px solid black; */
+            width:50%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(12,7.23%);
+            grid-template-rows: repeat(5,35px);
+            grid-column: 12;
+            margin-top: 200px;
+            gap: 9px;
+            padding: 15px 15px 15px 15px;
+            background-color: rgb(21, 21, 21);
+            border-radius: 10px;
+
+        }
+        .container button{
+            background-color: rgba(75, 71, 71, 0.529);
+            color:rgb(2, 167, 167);
+            border-radius: 4px;
+            border: none;
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        }
+        .container button:hover{
+         padding: 15px 15;
+
+        }
+        #enter{
+            grid-column-start: 11 ;
+            grid-column-end: 13;
+            grid-row: 2;
+            grid-row: 3;
+        }
+        #shift{
+            grid-column-start: 11 ;
+            grid-column-end: 13;
+            grid-row: 3;
+            grid-row: 4;
+        }
+        #space{
+            grid-column-start: 5 ;
+            grid-column-end: 9;
+            grid-row: 4;
+            grid-row: 5;
+        }
+  
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <button>~</button><button>1</button><button>2</button><button>3</button><button>4</button><button>5</button><button>6</button><button>7</button><button>8</button><button>9</button><button>0</button><button>delete</button><button>tab</button><button>Q</button><button>W</button><button>E</button><button>R</button><button>T</button><button>Y</button><button>U</button><button>I</button><button>O</button><button>P</button><button>/</button><button>caps</button><button>A</button><button>S</button><button>D</button><button>F</button><button>G</button><button>H</button><button>J</button><button>K</button><button>L</button><button id="enter">Enter</button><button id="shift">Shift</button><button>Z</button><button>X</button><button>C</button><button>V</button><button>B</button><button>N</button><button>M</button><button><</button><button>></button><button>Shift</button><button>.</button><button>control</button><button>option</button><button>alt</button><button id="space">Space</button><button>alt</button><button>option</button><button><-</button><button>-></button>
+    </div>
+</body>
+
+</html>
