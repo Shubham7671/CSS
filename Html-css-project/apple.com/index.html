@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333336;
+            padding: 15px 0px;
+
+            width: 100%;
+            position: fixed;
+
+        }
+
+        nav>a {
+            margin-left: 25px;
+            background-color: #333336;
+            color: white;
+            text-decoration: none;
+        }
+
+        #logo {
+            width: 15px;
+            background-color: #333336;
+        }
+
+        #search {
+            width: 20px;
+        }
+
+        .container-1 {
+            padding-top: 40px;
+            ;
+            text-align: center;
+            background-color: black;
+            color: white;
+
+        }
+
+        .container-1>h2,
+        .container-2>h2 {
+            font-size: 50px;
+            margin-top: 20px;
+        }
+
+        .container-1>h3,
+        .container-2>h3,
+        .container-3>h3 {
+            font-size: 30px;
+            margin: 15px 0px;
+
+
+        }
+
+        .container-1>p {
+            font-size: 30px;
+
+            text-decoration: none;
+            color: rgb(67, 67, 197);
+            margin-top: 20px;
+        }
+
+
+        .container-1>img {
+            width: 50%;
+            object-fit: cover;
+        }
+
+        .container-1>div,
+        .container-2>div,
+        .container-3>div {
+            margin-top: 20px;
+        }
+
+        .container-1>div>a,
+        .container-2>div>a,
+        .container-3>div>a {
+            margin-left: 20px;
+            font-size: 27px;
+            color: rgb(66, 105, 211);
+            text-decoration: none;
+            margin-bottom: 15px;
+
+        }
+
+        .container-2 {
+            background-color: white;
+            text-align: center;
+
+        }
+
+        .container-2>h2,
+        .container-3>h2 {
+            font-size: 50px;
+            margin-bottom: 20px;
+
+
+        }
+
+        .container-2>img {
+            width: 50%;
+            object-fit: cover;
+            height: 550px;
+        }
+
+        .container-3 {
+            padding: 20px 0px;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .container-3>img {
+            width: 30%;
+            object-fit: cover;
+        }
+
+        .container-4 {
+            padding: 15PX;
+            display: grid;
+            text-align: center;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 500px);
+            gap: 20px;
+
+
+        }
+
+        .container-4 h2 {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+
+        .container-4 p {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .container-4>div {
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid rgb(168, 163, 163);
+        }
+
+        .container-4 img {
+            width: 70%;
+            height: 60%;
+        }
+
+        .container-4>div:nth-child(1),
+        .container-4>div:nth-child(3),
+        .container-4>div:nth-child(4) {
+            background-color: black;
+            color: white;
+        }
+
+        footer {
+            background-color: #f5f5f7;
+        }
+
+        .section-1 {
+            text-align: center;
+            width: 70%;
+            margin: auto;
+            color: #565657;
+            padding: 20px 0px;
+        }
+
+        .section-2 {
+            width: 70%;
+            margin: auto;
+            display: grid;
+            gap: 15px;
+            grid-template-columns: repeat(5, 1fr);
+        }
+
+        .section-2>div {
+
+            padding: 10px;
+            color: #565657;
+        }
+
+        .section-2>div h4 {
+            color: #333336;
+            margin-bottom: 10px;
+
+        }
+
+        .section-2>div p {
+            margin-bottom: 5px;
+        }
+
+        .section-2>div p:hover {
+            text-decoration: underline;
+        }
+         .section-3{
+            width: 70%;
+            margin: auto;
+         }
+         .section-3>p{
+            margin-bottom: 10px;
+            color: #565657;
+         }
+         .section-3>hr{
+            margin-bottom: 10px;
+         }
+         .section-3>pre{
+            margin-bottom: 10px;
+            color: #565657;
+         }
+   
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html"><img id="logo" src="apple_logo_PNG19670.png" alt=""></a>
+        <a href="">Store</a>
+        <a href="">Mac</a>
+        <a href="">iPad</a>
+        <a href="">iPhone</a>
+        <a href="">Watch</a>
+        <a href="">Airpods</a>
+        <a href="">Tv & Home</a>
+        <a href="">Entertainment</a>
+        <a href="">Accessories</a>
+        <a href="">Support</a>
+        <a href=""><img id="search" src="search-icon.webp" alt=""></a>
+        <a href=""> <img id="logo" src="pngjoy.com_backpack-icon-shopping-bag-white-png-transparent-png_8409597.png" alt=""></a>
+    </nav>
+
+    <header>
+
+        <div class="container-1">
+            <h2>iPhone 14 Pro</h2>
+            <h3>Pro Beyond</h3>
+            <div><a href="">Learn More ></a>
+                <a href="">Buy ></a>
+            </div>
+
+            <img src="iphone_12_PNG23.png" alt="">
+        </div>
+
+        <div class="container-2">
+            <h2>iPhone 14</h2>
+            <h3>Two Great Sizes</h3>
+            <h3>Now With a Splash Yellow</h3>
+            <div><a href="">Learn More ></a>
+                <a href="">Buy ></a>
+            </div>
+
+            <img src="iphone_12_PNG8.png" alt="">
+        </div>
+        <div class="container-3">
+            <h2>Watch</h2>
+            <h3>Series 8</h3>
+            <h3>A healthy leap Ahead</h3>
+            <img src="Apple-Watch-PNG-Image-Background.png" alt="">
+        </div>
+        <div class="container-4">
+            <div>
+                <img src="wwdc-p1-large_2x.webp" alt="">
+                <h2>WWDC23</h2>
+                <p>Apple Worldwide Developers Conference</p>
+                <p>Join us online June 5-9</p>
+                <p><a href="">Learn More</a></p>
+            </div>
+            <div>
+                <h2>iPad</h2>
+                <p>Lovable Drawable Magical</p>
+                <p><a href="">Learn More</a></p>
+                <img src="hero__ecv967jz1y82_large.jpg" alt="">
+            </div>
+            <div>
+
+                <p>Supercharged by M2 pro and M2 Max</p>
+                <p><a href="">Learn More</a></p>
+                <img src="hero_intro_endframe__e6khcva4hkeq_large.jpg" alt="">
+            </div>
+            <div>
+                <h2>HomePod</h2>
+                <p>Profound sound</p>
+                <p><a href="">Learn More</a></p>
+                <img src="hero_homepod__f002zouobzyy_large.jpg" alt="">
+            </div>
+            <div>
+
+                <h2>Airpods pro</h2>
+                <p>Up to 2x More</p>
+                <p>Active Noise Cancellation</p>
+                <p><a href="">Learn More</a></p>
+                <img src="OIP.jpg" alt="">
+            </div>
+            <div>
+
+                <h2>Apple Card</h2>
+                <p>Get up to 3% Daily Cash Back</p>
+                <p>With Every Purchachase</p>
+                <p><a href="">Learn More</a></p>
+                <img src="th.jpg" alt="">
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div class="section-1">
+            <p>*Instant savings, otherwise referred to as instant Cashback on the Apple Store Online, is available with
+                the purchase of an eligible product for qualifying HDFC Bank credit cards & HDFC Bank credit card EMI
+                only. Minimum transaction value of ₹10001 applies. Click here to see instant savings amounts and
+                eligible devices. Instant savings are available for up to two orders per rolling 90-day period with an
+                eligible card. Card eligibility is subject to terms and conditions between you and your card-issuing
+                bank. Total transaction value is calculated after any trade-in credit or eligible discount applied. Any
+                subsequent order adjustment(s) or cancellation(s) may result in instant savings being recalculated, and
+                any refund may be adjusted to account for instant savings clawback; this may result in no refund being
+                made to you. Offer may be revised or withdrawn at any time without any prior notice. Terms and
+                conditions apply. Offer cannot be combined with Apple Store for Education or Corporate Employee Purchase
+                Plan pricing. Multiple separate orders cannot be combined for instant savings.
+                ₹99/month after free trial. One subscription per Family Sharing group.
+                <br>
+            </p>
+            <p>1. Offer is valid for 3 months after eligible device activation. Plan automatically renews until
+                cancelled. Restrictions and other terms apply.
+                <br>
+                <br>
+                <hr>
+            </p>
+        </div>
+        <div class="section-2">
+            <div>
+                <h4>Shop and Earn</h4>
+                <p>Store</p>
+                <p>Mac</p>
+                <p>iPad</p>
+                <p>iPhone</p>
+                <p>Watch</p>
+                <p>Airpods</p>
+                <p>Tv & Home</p>
+                <p>AirTag</p>
+                <p>Accessories</p>
+                <p>Gift Cards</p>
+                <h4>Apple Wallet</h4>
+                <p>Wallet</p>
+            </div>
+            <div>
+                <h4>Account</h4>
+                <p>Manage Your Apple Id</p>
+                <p>Apple Store Account</p>
+                <p>iCloud.com</p>
+                <h4>Entertainment</h4>
+                <p>Apple One</p>
+                <p>Apple Tv++</p>
+                <p>Apple Music</p>
+                <p>Apple Arcade</p>
+                <p>Apple Podcasts</p>
+                <p>Apple Books</p>
+                <p>App Store </p>
+            </div>
+            <div>
+                <h4>Apple Store</h4>
+                <p>Apple Trade In</p>
+                <p>Ways to Buy</p>
+                <p>Recyling Programme</p>
+                <p>Order Status</p>
+                <p>Shooping Help</p>
+            </div>
+            <div>
+                <h4>For Business</h4>
+                <p>Apple and Business</p>
+                <h4>For Education</h4>
+                <p>Shop for Education</p>
+                <p>Apple Education</p>
+                <p>Shop For University</p>
+                <h4>For HealthCare</h4>
+                <p>Apple in HealthCare</p>
+                <p>Health on Apple Watch</p>
+
+            </div>
+            <div>
+                <h4>Apple Values</h4>
+                <p>Acessiblity</p>
+                <p>Education</p>
+                <p>Environment</p>
+                <p>Privacy</p>
+                <p>Supplier Responsiblity</p>
+                <h4>About Apple</h4>
+                <p>Newsroom</p>
+                <p>Apple leadership</p>
+                <p>Carrer Opportunities</p>
+                <p>Investor</p>
+                <p>Ethics & Compliance</p>
+                <p>Events</p>
+                <p>Contact Apple </p>
+
+            </div>
+            <br>
+        </div>
+        <div class="section-3">
+            <p>More ways to shop: Find a retailer near you. Or call 000800 040 1966.</p>
+            <hr>
+            <pre>Copyright © 2023 Apple Inc. All rights reserved                                                         Privacy Policy | Term of Use | Sales Policy | Legal | Site Map</pre>
+        </div>
+      
+    </footer>
+
+
+
+</body>
+
+</html>
