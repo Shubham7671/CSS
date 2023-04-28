@@ -120,3 +120,11 @@ input, textarea{
     text-align: center;
 }
 
+@media screen and (max-width: 578px) {
+    .contact-us{
+        width: 100%;
+    }
+    .item-container{
+        flex-direction: column;
+    }
+}
