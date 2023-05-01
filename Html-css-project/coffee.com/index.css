@@ -1,0 +1,376 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.notification {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(16, 58, 50);
+    position: sticky;
+    width: 100%;
+    padding: 15px 0px;
+    color: white;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    padding: 15px 0px 15px 0px;
+    position: sticky;
+    width: 100%;
+
+
+}
+
+nav>a,
+.notification a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav img {
+    width: 95px;
+}
+
+.section-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 550px;
+    text-align: center;
+
+}
+
+.section-1>div:nth-child(1) {
+    background-color: rgba(16, 58, 50);
+    color: white;
+    padding: 50px;
+
+}
+
+.section-1>div:nth-child(2) {
+    background-image: url(https://cdn.shopify.com/s/files/1/0589/6057/6676/files/cafe-two14-hero-image_1920x.jpg?v=1632912165);
+    background-size: cover;
+    background-position: 50%;
+    backface-visibility: calc(20);
+    /* opacity: 0.9; */
+    padding: 70px 10px;
+    color: white;
+}
+
+.section-1>div:nth-child(1)>h1 {
+    font-size: 70px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.section-1>div:nth-child(1)>h1 {
+    font-size: 80px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+
+}
+
+.section-1>div:nth-child(1)>h2 {
+    font-size: 40px;
+    border: 2px solid white;
+    display: inline;
+    padding: 10px 15px;
+
+}
+
+.section-1>div:nth-child(1)>p {
+    font-size: 30px;
+    margin-top: 25px;
+
+}
+
+.section-1>div:nth-child(2)>pre {
+    font-size: 70px;
+    font-weight: bolder;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.section-1>div:nth-child(2)>p {
+    font-size: 20px;
+    margin-top: 15px;
+
+}
+
+.section-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 700px;
+    padding: 70px 90px;
+    gap: 10px;
+}
+
+.section-2>div:nth-child(1)>h2 {
+    display: inline;
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 20px;
+
+
+
+}
+
+.section-2>div:nth-child(1)>h1 {
+    font-weight: bolder;
+    font-size: 70px;
+
+}
+
+.section-2>div:nth-child(1)>p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: grey;
+    line-height: 35px;
+    margin-bottom: 150px;
+
+}
+
+.section-2>div:nth-child(1)>button {
+
+    font-size: 40px;
+    color: white;
+    background-color: rgb(25, 85, 74);
+    width: 90%;
+    border-radius: 15px;
+    padding: 10px 0px;
+    display: block;
+    margin: auto;
+
+}
+
+.section-2>div:nth-child(2) {
+    background-image: url(https://cdn.shopify.com/s/files/1/0589/6057/6676/products/enamel-mug-white-12oz-right-62b53a31b8767_1920x.jpg?v=1658288851);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.section-3 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.section-3>div>h3 {
+    font-size: 30px;
+}
+
+.section-33 {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 0px 150px;
+    margin-bottom: 50px;
+
+}
+
+
+.section-33>div>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.section-33>div>h2 {
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.section-33>div>a {
+    text-decoration: none;
+    color: rgb(25, 85, 74)
+}
+
+.section-4 {
+    height: 350px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0589/6057/6676/files/243022212_646205603450078_6081194501904333867_n_1920x.jpg?v=1632910522);
+    background-size: cover;
+}
+
+.section-4 {
+    text-align: center;
+    color: white;
+    padding: 50px 100px;
+}
+
+.section-4>h1 {
+    font-size: 50px;
+}
+
+.section-4>p {
+    margin-top: 50px;
+}
+
+.section-4>button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.section-5 {
+    height: 150px;
+    background-color: rgb(25, 85, 74);
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+.section-5>h1 {
+    font-size: 60px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.section-5>h2 {
+    margin-top: 20px;
+    font-size: 30px;
+    border: 2px solid white;
+    display: inline;
+    padding: 5px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.section-5>p {
+    margin-top: 20px;
+}
+
+.container-1 {
+    display: grid;
+    padding: 40px 30px;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: 300px; */
+    gap: 30px
+
+}
+
+.container-1 h2 {
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container-1 p {
+    color: gray;
+    line-height: 28px;
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 230px;
+    gap: 15px;
+    padding: 0px 50px;
+    
+
+}
+
+.container-2>div:nth-child(1) {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 40px 30px;
+
+
+}
+
+.container-2>div:nth-child(2) {
+    background-color: rgb(25, 85, 74);
+    border-radius: 10px;
+    color: white;
+    padding: 40px 30px;
+
+}
+.container-2>div:nth-child(2)>p {
+   margin-top: 20px;
+   color: white;
+
+}
+.container-2>div:nth-child(1)>p {
+   margin-top: 20px;
+   color: grey;
+
+}
+.container-2 input{
+    margin-top: 20px;
+    width: 60%;
+    font-size: 15px;
+    padding: 10px;
+}
+.container-2 button{
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(25, 85, 74);
+    color: white;
+}
+.container-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.container-2>div>div>img {
+    margin-top: 20px;
+  width: 30px;
+
+}
+.p1{
+    display: flex;
+}
+.filter{
+    width: 20%;
+    height: 100vh;
+}
+#products{
+    width: 80%;
+    border: 2px solid red;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#products>div{
+    width: 20%;
+    height: 200px;
+    border: 1px solid rgb(25, 85, 74) ;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 0.12rem;
+}
+
+#products>div>img{
+    width: 100%;
+    height: 50%;
+}
+
+#products>div>button{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 100%;
+    padding: 8px 0px;
+    border: none;
+    
+}
+#products>div>button:hover{
+ 
+    background-color: rgb(25, 85, 74);
+    color: white;
+    cursor: pointer;
+
+}
